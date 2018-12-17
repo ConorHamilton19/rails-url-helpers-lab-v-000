@@ -18,8 +18,6 @@ class StudentsController < ApplicationController
       @student.update(active: false)
     end
     redirect_to student_path(@student)
-    
-    
   end
 
   private
